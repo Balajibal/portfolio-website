@@ -1,0 +1,145 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+/* About Section Styles */
+.about {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Portfolio Section Styles */
+.portfolio {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.portfolio h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.project {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.project h3 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.project p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.project:hover img {
+    transform: scale(1.05);
+}
+
+/* Contact Section Styles */
+.contact {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+/* Media Queries for Responsive Design (adjust as needed) */
+@media (max-width: 768px) {
+    nav {
+        padding: 10px 0;
+    }
+    nav a {
+        margin: 0 10px;
+        font-size: 16px;
+    }
+    .about h2 {
+        font-size: 24px;
+    }
+    .portfolio h2 {
+        font-size: 24px;
+    }
+    .project h3 {
+        font-size: 18px;
+    }
+    .contact h2 {
+        font-size: 24px;
+    }
+}
